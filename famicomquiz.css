@@ -1,0 +1,25 @@
+body {
+    background-color:#FFFFEE;
+    color: #AA0000;
+}
+
+#question {
+  font-size: 30px;
+  text-align: center;
+}
+
+input[type="button"] {
+    font-size: 5.2em;
+    padding: 70px 140px;
+    border:5px solid #AA0000;
+    background-color: #AA0000;
+    color: #daa520;
+}
+
+input[type="button"]:hover{
+    font-size: 5.2em;
+    padding: 70px 140px;
+    border:5px solid #AA0000;
+    background-color: #FFFFEE;
+    color:  #AA0000;
+}
