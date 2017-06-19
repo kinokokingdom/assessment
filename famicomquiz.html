@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="quiz.css">
+  <title>ファミコンQuiz！</title>
+</head>
+<body>
+  <div align="center">
+    <h1>ファミコンQuiz！</h1>
+    <p>昔懐かしいファミコンのクイズです！<br>
+    全部で10問！　あなたは何問正解できるか⁉︎</p>
+    <div id="question"></div><br>
+    <div id="buttons">
+      <input type="button" class="button" value="○" onclick="hantei(1)">
+      <input type="button" class="button" value="×" onclick="hantei(2)">
+    </div>
+  </div>
+  <script src="quiz.js"></script>
+</body>
+</html>
